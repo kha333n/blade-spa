@@ -1,0 +1,28 @@
+{
+    "name": "kha333n/blade-spa",
+    "description": "A Laravel package for building single-page applications using Blade templates.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Kha333n\\BladeSpa\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Usman Khan",
+            "email": "kha333n@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.3",
+        "illuminate/support": "^8.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kha333n\\BladeSpa\\BladeSpaServiceProvider"
+            ]
+        }
+    }
+}
